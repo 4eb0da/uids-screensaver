@@ -5,6 +5,17 @@ body, html{
   height: 100%;
 }
 
+.timer{
+  font-family: "Ubuntu", "Segoe UI", sans-serif;
+  font-size: 200%;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  box-shadow: 0 0 30px 30px #FFF;
+  background: #FFF;
+  border-radius: 100%;
+}
+
 .shader{
 	height: 100px;
   width: 100px;
