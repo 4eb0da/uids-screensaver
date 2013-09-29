@@ -17,8 +17,7 @@ body, html{
 }
 
 .shader{
-	height: 100px;
-  width: 100px;
+	height: 100%;
   background: #000;
 	-webkit-filter: custom(url(vertex.vert) mix(url(fragment.frag) normal source-atop), 1 1, time 0);
   -webkit-animation-duration: 30s;
