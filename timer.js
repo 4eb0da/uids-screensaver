@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			h = "0" + h;
 		}
 		if (m < 10) {
-			m = "0" + h;
+			m = "0" + m;
 		}
 		hours.textContent = h;
 		mins.textContent = m;
